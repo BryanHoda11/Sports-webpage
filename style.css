@@ -1,0 +1,244 @@
+/* Navigation  */
+body{
+    background-color: black;
+}
+
+#navigation ul{
+    display: flex;
+   padding: 6px 0px;
+}
+
+#navigation ul li{
+    display: flex;
+}
+
+#navigation ul li a{
+    display: block;
+    padding: 0px 27px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navigation ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Body Section */
+
+h1{
+    color: rgb(149, 149, 29);
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 3px;
+}
+
+img{
+    height: 444px;
+    width: 100%;
+    margin: 0px;
+    padding-top: 31px;
+}
+
+#football{
+    display: inline;
+} 
+
+#football h3{
+    color: rgb(167, 39, 39);
+    font-size: 2rem;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 18px 100px;
+}
+
+#football p{
+    display: flex;
+    color: rgb(167, 39, 39);
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 11px 90px;
+}
+
+#football img{
+    height: 289px;
+    width: 29%
+}
+
+#football button{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 14px;
+    padding: 11px 40px;
+    margin: -4px;
+    background-color: rgb(167, 39, 39);
+    border: 5px solid black;
+    display: inline;
+}
+
+#football button:hover{
+    background-color: black;
+    color: rgb(167, 39, 39);
+    cursor: pointer;
+}
+
+#cricket h3{
+  color: rgb(43, 49, 135);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  text-decoration: underline;
+  padding: 18px 100px;
+}
+
+#cricket p{
+    color: rgb(43, 49, 135);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    padding: 11px 90px;
+}
+
+#cricket img{
+    height: 534px;
+    width: 488px
+}
+
+#cricket button{
+    background-color: rgb(43, 49, 135);
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 14px;
+    padding: 11px 40px;
+}
+
+#cricket button:hover{
+    background-color:black;
+    color: rgb(43, 49, 135);
+    cursor: pointer;
+}
+
+#tennis img{
+    height: 343px;
+    width: 28%;
+}
+
+#tennis h3{
+    color: rgb(219, 109, 12);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    padding: 18px 100px;
+}
+
+#tennis p{
+    color: rgb(219,109,12);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    padding: 11px 90px;
+}
+
+#tennis button{
+    background-color: rgb(219,109,12);
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 14px;
+    padding: 11px 40px;
+}
+    
+
+#tennis button:hover{
+    background-color: black;
+    color: rgb(219,109,12);
+    cursor: pointer;
+}
+
+/* About Us Section */
+
+#about{
+    text-align: center;
+} 
+
+#about h3{
+    color: rgb(179, 23, 83);
+    font-size: 2.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+
+#about p{
+    color: rgb(179, 23, 83);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 400px;
+    width: 60%;
+    padding: 2px 19px;
+    margin:-4px 250px;
+}
+
+/* Log in / Sign in Section */
+
+#ls h2{
+    color: rgb(67, 168, 168);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.3rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#lsin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+} 
+
+#lsin input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 6px 7px;
+}
+
+#lsin form{
+   width: 50%;
+}
+
+#lsin label{
+    color: rgb(67, 168, 168);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+}
+
+#lsin textarea{
+    width: 100%;
+    padding: 0.4rem;
+}
+
+.btn{
+   padding: 10px 10px;
+   padding-top: 6px;
+   margin: 0rem;
+   border-radius: 8px;
+   font-size: 16px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.btn:hover{
+    background-color: black;
+    color: rgb(67, 168, 168);
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    color: rgb(181, 32, 32);
+    font-weight: bold;
+    padding: 52px 550px;
+}
